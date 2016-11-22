@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
-# Use Puma as the app server
+# Use Puma as the app serverg
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -34,6 +34,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'listen'
 gem "pg", :group => :production
 gem "sqlite3-ruby", :group => :development
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
