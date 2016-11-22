@@ -3,9 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-# Use Puma as the app serverg
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -33,7 +30,7 @@ gem 'bcrypt', '~> 3.1.7'
 #END:bcrypt
 gem 'listen'
 gem "pg", :group => :production
-gem "sqlite3-ruby", :group => :development
+
 
 
 # Use Capistrano for deployment
@@ -49,6 +46,7 @@ group :development do
 #   gem 'web-console'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem "sqlite3"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
